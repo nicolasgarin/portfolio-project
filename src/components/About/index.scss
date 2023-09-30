@@ -1,0 +1,62 @@
+@import "../../variables";
+
+.foto-container {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url('../../assets/images/sobremi.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+
+.galeria {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    bottom: 10%;
+    width: 40%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+
+    .img {
+    width: 50%;
+    height: 33%;
+    border-radius: 8px;
+    padding: 15px;
+    background-size: cover;
+    background-position: center;
+
+
+    &.img-1 {
+        background-image: url('../../assets/images/f1.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    &.img-2 {
+        background-image: url('../../assets/images/f2.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    &.img-3 {
+        background-image: url('../../assets/images/f3.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    &.img-4 {
+        background-image: url('../../assets/images/f4.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    &.img-5 {
+        background-image: url('../../assets/images/f5.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+}
+}
